@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: wordpress
+    env: docker
+    dockerfilePath: ""
+    dockerComposeFile: docker-compose.yml
+    buildCommand: ""
+    startCommand: ""
